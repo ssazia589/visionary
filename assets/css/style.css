@@ -1,0 +1,209 @@
+/* common code start */
+:root{
+    --brand-color: #007A56;
+    --dark-color:  #000000;
+    --soft-dark:  #0A1D32;
+    --light-color: #FFFFFF;
+    --soft-light:  #F8F4F0;
+    --transition: 5s. linear;
+    font-size: 10px;
+}
+.btn{
+    background: var(--brand-color) !important;
+    color: var(--light-color) !important;
+    border-radius: 6px;
+    padding: 8px 35px !important;
+    transition: var(--transition);
+    border: 2px solid transparent;
+}
+.btn:hover{
+    color: var(--dark-color) !important;
+    background: transparent !important;
+    border: 2px solid var(--brand-color) !important;
+}
+.container{
+    min-width: 400px;
+    max-width: 1140px;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0px;
+    padding: 0px;
+}
+/* common code end */
+/* nav section start */
+nav .navbar-brand i{
+    color: var(--brand-color);
+}
+nav{
+    /* position: sticky; */
+    /* top: 0px; */
+}
+.navbar .nav-link,
+.navbar .dropdown-item{
+    color: var(--dark-color);
+    font-weight: 500;
+    font-size: 1.6rem;
+    margin: 0px 5px;
+    transition: var(--transition);
+    /* display: inline-block; */
+}
+.navbar .navbar-toggler-icon{
+    font-size: 2rem;
+}
+.navbar .dropdown-item{
+    margin: 0px auto;
+}
+.navbar .nav-link:hover,
+.navbar .nav-link.active,
+.navbar .dropdown-item:hover{
+    color: var(--brand-color);
+
+}
+/* .sign-up .nav-item:last-child .nav-link{ */
+    /* background: var(--brand-color); */
+    /* color: var(--light-color); */
+    border-radius: 6px;/
+    /* padding: 6px 12px; */
+    transition: var(--transition);
+    /* border: 2px solid transparent; */
+/* } */
+/* .sign-up .nav-item:last-child .nav-link:hover{ */
+    /* color: var(--dark-color); */
+    /* background: transparent; */
+    /* border: 2px solid var(--brand-color); */
+/* } */
+/* nav section end */
+/* header section start */
+header{
+    background: var(--light-color);
+}
+header .content-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 0px 7rem;
+
+}
+header .content-area h1{
+    font-size: calc(4.5rem + 1.5vw);
+    font-weight: 700;
+    line-height: 1.2;
+}
+header .content-area p{
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin: 2rem 0px;
+}
+/* header section end */
+/* services section start */
+.services-section{
+    background: var(--soft-light);
+}
+.services-section .title h1{
+    color: var(--dark-color);
+}
+.services-section .title p{
+    color: var(--dark-color);
+}
+/* services section end */
+/* about us section start */
+.about-section .content-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 0px calc(7.5rem + 1.5vw);
+
+}
+.about-section .content-area h1{
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 3.5rem;
+}
+.about-section .content-area p{
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 1.2rem;
+    margin: 1.8rem 0px;
+}
+/* about us section end */
+/* latest news section start */
+.latestnews-section .content-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 0px calc(7.5rem + 1.5vw);
+}
+.latestnews-section .content-area h1{
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 3.5rem;
+}
+.latestnews-section .content-area p{
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 1.2rem;
+    margin: 2rem 0px;
+}
+/* latest news section end */
+/* counter section start */
+.counter-section{
+    background: var(--soft-light);
+}
+.counter-section .content-area i{
+    color: var(--brand-color);
+}
+.counter-section .content-area p{
+    margin: 0px;
+    padding: 0px;
+}
+/* counter section end */
+/* keep in touch section start */
+.keep-in-touch-section{
+    
+}
+.keep-in-touch-section h1{
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 2.5rem;
+}
+.keep-in-touch-section p{
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 1.5rem;
+    margin: 2rem 0px;
+}
+/* keep in touch section end */
+/* footer section start */
+.footer-section{
+    background: var(--soft-dark);
+}
+.footer-section .content-area{
+    position: relative;
+    top: 0px;
+}
+.footer-section .content-area i{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    /* color: var(--brand-color); */
+}
+.footer-section .content-area h2{
+    position: absolute;
+    top: 0px;
+    left: 25px;
+
+}
+.footer-section .content-area p{
+    margin-top: 30px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.footer-section .content-area ul li a{
+    color: var(--light-color);
+}
+/* footer section end */
